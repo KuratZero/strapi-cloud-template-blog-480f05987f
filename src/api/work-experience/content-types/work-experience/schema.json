@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_experiences",
+  "info": {
+    "singularName": "work-experience",
+    "pluralName": "work-experiences",
+    "displayName": "WorkExperience",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "jobName": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}
