@@ -7,6 +7,7 @@
     "displayName": "Contact"
   },
   "options": {
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"],
     "draftAndPublish": true
   },
   "attributes": {

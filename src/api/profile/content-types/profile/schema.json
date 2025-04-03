@@ -8,6 +8,7 @@
     "description": ""
   },
   "options": {
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"],
     "draftAndPublish": true
   },
   "attributes": {
@@ -35,12 +36,12 @@
       "relation": "oneToMany",
       "target": "api::skill.skill"
     },
-    "work_experiences": {
+    "workExperience": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::work-experience.work-experience"
     },
-    "educations": {
+    "education": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::education.education"

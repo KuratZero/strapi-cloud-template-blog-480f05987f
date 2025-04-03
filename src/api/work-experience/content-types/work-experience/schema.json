@@ -8,6 +8,7 @@
     "description": ""
   },
   "options": {
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"],
     "draftAndPublish": true
   },
   "attributes": {
@@ -20,22 +21,17 @@
     "location": {
       "type": "string"
     },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "occupationType": {
+      "type": "string"
+    },
     "description": {
       "type": "text"
-    },
-    "icon": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "date": {
-      "type": "string"
     }
   }
 }

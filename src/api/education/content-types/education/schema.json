@@ -7,6 +7,7 @@
     "displayName": "Education"
   },
   "options": {
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"],
     "draftAndPublish": true
   },
   "attributes": {
@@ -19,7 +20,7 @@
     "startDate": {
       "type": "string"
     },
-    "stopDate": {
+    "endDate": {
       "type": "string"
     }
   }
